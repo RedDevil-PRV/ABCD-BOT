@@ -9,8 +9,8 @@ from bot import LOGGER
 class TelegraphHelper:
     def __init__(
             self,
-            author_name=None,
-            author_url=None
+            author_name = 'Eliteflix Leech And Mirror 🖤❤'
+            author_url = 'https://telegram.me/Eliteflix_Official'
         ):
         self._telegraph = Telegraph(domain="graph.org")
         self._author_name = author_name
