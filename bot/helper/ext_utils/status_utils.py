@@ -252,10 +252,10 @@ async def get_readable_message(
             and int(config_dict["AUTO_DELETE_MESSAGE_DURATION"]) > 0
         ):
             msg += (
-                f"```\n#Zee{index + start_position}: "
+                f"```\n#DeathNote{index + start_position}: "
                 f"{escape(f"{task.name()}")}\n```"
                 if elapse <= config_dict["AUTO_DELETE_MESSAGE_DURATION"]
-                else f"\n<blockquote>#Zee{index + start_position}...(Processing)</blockquote>"
+                else f"\n<blockquote>#DeathNote{index + start_position}...(Processing)</blockquote>"
             )
         else:
             msg += (
