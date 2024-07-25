@@ -130,7 +130,7 @@ async def start(client, message):
         and not await CustomFilters.authorized(client, message)
     ):
         start_string = "Sorry, you cannot use me here!\n" \
-                       "Join: @Z_Mirror to use me.\n" \
+                       "Join: @Eliteflix_Official to use me.\n" \
                        "Thank You!"
     elif (
         not config_dict["DM_MODE"]
